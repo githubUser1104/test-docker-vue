@@ -9,3 +9,8 @@ git commit -m "init"
 git remote add origin git@github.com:githubUser1104/test-docker-vue.git
 git push -u origin master
 ```
+
+## 部署逻辑
+- git push
+- travis ci
+- docker
