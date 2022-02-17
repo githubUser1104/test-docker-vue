@@ -12,5 +12,5 @@ git push -u origin master
 
 ## 部署逻辑
 - git push
-- travis ci
+- travis-ci
 - docker
