@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Hello vue and docker!"/>
+  <HelloWorld msg="Hello vue and docker!!!"/>
 </template>
 
 <script>

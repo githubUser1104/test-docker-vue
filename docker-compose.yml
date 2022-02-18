@@ -1,0 +1,15 @@
+# 定义了一个mydocker服务（还可以定义更多）
+# 该服务会去从dockerhub拉取对应image、创建容器
+# 将容器的80端口映射到宿主机的8082端口
+# 并且在容器挂掉的时候重启
+
+# 使用方式：
+# 放到服务器的特定目录，然后在该目录下执行 docker-compose up mydocker
+version: "3.7" # 这个是配置文件的版本，不同的版本号声明方式会有细微的不同
+services:
+    mydocker:
+        container_name: test-docker-vue
+        image: docker02171628/test-docker-vue:latest
+        ports:
+            - "8082:80"
+        restart: on-failure
